@@ -1,0 +1,15 @@
+module.exports={
+  plugins:{
+    autoprefixer:{
+      "postcss-px-to-vw":{
+        viewportWidth:375,
+        viewportHeight:667,
+        unitPrecision:5,
+        viewportUnit:'vw',
+        slectorBlackList:['tab-bar','tab-bar-item'],
+        minPixeValue:1,
+        mdeiaQuery:false
+      }
+    }
+  }
+}
